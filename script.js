@@ -18,7 +18,6 @@ const quoteButton = document.getElementById('quote-button');
 // Функция генерации случайной цитаты
 function getRandomQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
-  console.log(randomIndex);
   quoteText.textContent = quotes[randomIndex];
 }
 
